@@ -1,0 +1,60 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+.box1 {
+background-color: aqua;
+width: 80vw;
+height: 4vh;
+margin: 0px auto;
+}
+.div-flex {
+display: flex;
+gap: 20px;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 10px;
+}
+.box2 {
+width: 24vw;
+height: 110vh;
+/* background-color: green; */
+}
+.box3 {
+width: 38vw;
+height: 110vh;
+/* background-color: red; */
+}
+.box4 {
+width: 14vw;
+height: 110vh;
+/* background-color: orange; */
+}
+@media (max-width: 991px) {
+.box1 {
+width: 100%;
+}
+.box2 {
+width: 100%;
+} 
+.box3 {
+width: 48%;
+} 
+.box4 {
+width: 48%;
+}
+}
+@media (max-width: 575px) {
+.box1 {
+width: 100%;
+}
+.box2 {
+width: 100%;
+}
+.box3 {
+width: 100%;
+}
+.box4 {
+display: none;
+}
+}
